@@ -1,0 +1,810 @@
+body {
+    font-family: sans-serif;
+    transition: background-color .5s;
+} 
+/* 
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 15px;
+    margin-left: 50%;
+    margin-top: 9%;
+} */
+
+.sidenav .logoMini {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+ }
+.sidenav .closebtn {
+    position: absolute;
+    top: 26px;
+    right: 25px;
+}
+ #mySidenavContainer {
+    width: 0vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+    /* display: none; */
+    transition: all .05s;
+ }
+ 
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+} 
+.sidenav a {
+    padding: 8px 1px 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.sideMenu {
+    margin-top: 50px;
+}
+.menuHam {
+    font-size: 20px;
+    cursor: pointer;
+}
+.sideMenu a:hover {
+    color:  rgb(252, 210, 50);
+}
+#mySidenav a {
+    padding: 0% 0% 0% 10%;
+}
+#mySidenav .sideMenu {
+    margin-top: 30%;
+}
+.logoMini {
+    margin-top: 8%;
+}
+#nav_bar {
+    background-color: rgb(67, 23, 129);
+    color: rgb(252, 210, 50);
+    padding: 1% 2.5% 1% 1%;
+}
+.b1 {
+    background-color: rgb(252, 210, 50);
+    color: black;
+    font-weight: bold;
+}
+.b2 {
+    background-color: black;
+    color: rgb(252, 210, 50)!important;
+    /* font-weight: bold; */
+}
+.btnMar {
+    padding-left: 4.94%;
+}
+.bg-up {
+    background-image: -webkit-linear-gradient(-80deg, rgb(67, 23, 129) 28%, rgb(238, 242, 245) 25%);
+    color: white;
+}
+.bg-up h5 {
+    padding-top: 10%;
+}
+.bg-up h5 a {
+    color:  rgb(252, 210, 50);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.bg-up h1 {
+    font-weight: bolder;
+    margin-top: 10%;
+}
+.bg-up .par {
+    margin-top: 2%;
+    width: 55%;
+    margin: 0 auto;
+}
+.take {
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.15);
+}
+.cardImg {
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    padding: 10%;
+}
+.cardImg img {
+    margin: 0 auto;
+}
+.imgCircle {
+    border-radius: 50%;
+    background-color: black;
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+}
+.flexCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inLeft {
+    width: 80%;
+}
+.inLeft p {
+    font-size: 12px;
+}
+.gameIn h4 {
+    font-size: 16px;
+}
+.inRight {
+    width: 20%;
+}
+.blueText {
+    color: lightseagreen;
+    font-weight: bolder;
+}
+.gameIn {
+    padding: 3% 3% 3% 7%;
+}
+.time {
+    margin-left: 8%;
+    color: grey;
+    font-size: 12px;
+}
+.marginBottom {
+    margin-bottom: 6%;
+}
+.decoNone {
+    color: black;
+    font-weight: bold;
+}
+.decoNone:hover {
+    text-decoration: none;
+}
+.bg-down {
+    background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129) 73%, rgb(238, 242, 245) 73%);
+    color: white;
+    padding-top: 52%;
+    margin-top: -28%;
+}
+.bg-down h1 {
+    font-weight: bolder;
+    margin-top: -28%;
+}
+.bg-down p {
+    margin-top: 2%;
+    width: 55%;
+    margin: 0 auto;
+}
+.footer {
+    background-color: rgb(67, 23, 129);
+    color: rgb(252, 210, 50);
+    padding: 1% 2.5% 1% 1%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerMenu {
+    width: 33%;
+}
+.logoMiddle {
+    width: 30%;
+}
+.contacts {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.footerMenu ul li a {
+    color: rgb(252, 210, 50);
+    text-decoration: none;
+    margin-right: 60%;
+}
+.contacts a i {
+    color: rgb(252, 210, 50);
+    font-size: 20px;
+}
+
+/* single page */
+
+#nav_barG {
+    background-color: rgb(67, 23, 129);
+    color: rgb(252, 210, 50);
+    padding: 1% 2.5% 1% 1%;
+}
+.banner {
+    background-image: -webkit-linear-gradient(-80deg, rgb(0, 0, 0) 35%, rgb(255, 255, 255) 25%);
+    height: 270vh;
+    color: white;
+}
+.dotIcon img {
+    padding-top: 35%;
+}
+.logoImg {
+    width: 80%;
+}
+.banner h1 {
+    color: rgb(67, 23, 129);
+    z-index: 3;
+    padding-top: 35%;
+    font-size: 62px;
+    font-weight: bolder;
+}
+.igraNaslov {
+    margin-top: -75%;
+}
+.opis {
+    background-color: rgba(252, 210, 50, 0.9);
+    border-radius: 4px;
+}
+.bg-downGame {
+    background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129) 62%, rgb(255, 255, 255) 62%);
+    color: white;
+    padding-top: 50%;
+}
+.breakList {
+    margin-left: 5%;
+    font-size: 16px;
+}
+.gameLine {
+    border: 1px solid rgb(58, 53, 53);
+}
+.igraNaslov h2 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+.gameMargin {
+    margin: 10% 0% 2% 12%;
+    font-size: 16px;
+}
+.timeGame {
+    margin-left: 23%;
+    margin-bottom: 8%;
+    font-size: 13px;
+}
+.gameText {
+    font-size: 16px;
+    margin-top: 3%;
+}
+.headGame {
+    margin-top: 2%;
+    margin-bottom: -1%;
+}
+.footerGame {
+    background-color:rgb(67, 23, 129);
+    color: rgb(252, 210, 50);
+    padding: 1% 2.5% 1% 1%;
+}
+.bg-downGame h1 {
+    font-weight: bolder;
+    margin-top: -25%;
+}
+.bg-downGame p {
+    margin-top: 2%;
+    width: 55%;
+    margin: 0 auto;
+}
+
+/* Registriraj se */
+
+#nav_barR {
+    background-color: rgb(58, 53, 53) !important;
+    padding: 1% 2.5% 1% 1%;
+    color: rgb(252, 210, 50);
+}
+#regFoot {
+    background-color: rgb(58, 53, 53) !important;
+    padding: 1% 2.5% 1% 1%;
+    color: rgb(252, 210, 50);
+}
+.forma {
+    margin-top: 25%;
+    margin-bottom: -12%;
+    color: rgb(58, 53, 53);
+    font-weight: bold;
+    font-size: 25px;
+}
+.bgForm {
+    background-image: url("../images/advertisement-businessman-hands-533444.jpg");
+    height: 89.4vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+.regForm {
+    background-color: rgb(252, 210, 50);
+    padding: 18% 7%;
+}
+.uslovi {
+    margin-top: -17%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: rgb(58, 53, 53);
+    font-weight: bold;
+}
+.btnReg {
+    background-color: rgb(252, 210, 50);
+    color: rgb(58, 53, 53); 
+    border: 2px solid rgb(58, 53, 53);
+}
+.btnReg:hover {
+    background-color: rgb(58, 53, 53);
+    color: rgb(252, 210, 50);
+    border: 1px solid rgb(58, 53, 53);
+}
+
+/* Za nas */
+
+.bgAbout {
+    background-image: url("../images/pexels-photo-169573.jpeg");
+    height: 89.4vh;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-color: rgba(252, 210, 50, 0.8);
+}
+.headAbout {
+    margin: 25% 12% 2% 0%;
+    font-weight: bold;
+}
+.parAbout {
+    margin: 5% 12% 2% 0%;
+}
+.headAbout2 {
+    margin: 5% 12% 2% 0%;
+    font-weight: bold;
+}
+
+/* Najavi se */
+
+.bgNajava {
+    background-image: url("../images/pexels-photo-205316.png");
+    height: 89.4vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-color: rgba(252, 210, 50, 0.8);
+}
+.najavaForm {
+    margin-top: 27%;
+    margin-right: 8%;
+    font-size: 38px;
+    font-weight: bold;
+}
+.najavaMargin {
+    margin-top: 22%;
+    margin-right: 8%;
+}
+.najavaInput {
+    border: 2px solid rgb(58, 53, 53);
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+.najavaInput input {
+    border: transparent;
+    padding: 5% 2%;
+}
+.parNajava {
+    margin-right: 8%;
+    margin-top: 4.5%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.checkbox label {
+    color: rgb(252, 210, 50);
+    margin-right: 8%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnNajava {
+    background-color: rgb(252, 210, 50);
+    color: rgb(58, 53, 53); 
+    border: 2px solid rgb(58, 53, 53);
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnNajava:hover {
+    background-color: rgb(58, 53, 53);
+    color: rgb(252, 210, 50);
+    border: 1px solid rgb(58, 53, 53);
+}
+
+/* Galerija */
+
+.bgGalerija {
+    background-image: url("../images/43787865_1464898433654769_8691983732212498432_n.jpg");
+    height: 89.4vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+.headGalerija {
+    margin-top: 28%;
+    font-weight: bold;
+}
+.parGalerija {
+    font-size: 16px;
+    margin-top: 5%;
+}
+.textR {
+    color: rgb(187, 44, 32);
+}
+.headGalerija2 {
+    margin-top: 7%;
+    font-weight: bold;
+}
+.bgGalerija a {
+    color: rgb(187, 44, 32);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Contact */
+
+.bgContact {
+    background-image: url("../images/pexels-photo-1036808.jpeg");
+    height: 89.4vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+.headContact {
+    margin-top: 40%;
+    font-weight: bold;
+}
+.parContact {
+    margin-top: 10%;
+}
+.parContact2 {
+    margin-top: 5%;
+}
+
+.logoBrain {
+    width: 30%;
+}
+
+/* Tablet-landing page */
+
+@media screen and (max-width:768px) {
+    .bg-up h5 {
+        margin-top: 6%;
+    }
+    .bg-up h1 {
+        font-size: 30px;
+        margin-top: 5%;
+    }
+    .b1 {
+        font-size: 12px;
+    }
+    .b2 {
+        font-size: 12px;
+    }
+    .logoBrain {
+        width: 50%;
+    }
+    .btnMar {
+        padding-left: 5%;
+    }
+    .marginBottom {
+        margin-top: 3%;
+    }
+    .bg-down h1 {
+        font-size: 30px;
+    }
+    .footerMenu {
+        width: 100%;
+    }
+    .logoMiddle {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts {
+        width: 100%;
+    }
+    .footerMenu ul li a {
+        margin-right: 20%;
+    }
+    .contacts a i {
+        font-size: 20px;
+    }
+}
+
+/* Mobile-landing page */
+
+@media screen and (max-width:425px) {
+    .logoBrain {
+        margin-right: 65%;
+        padding-left: 0;
+        width: 58%;
+        margin-top: 1%;
+    }
+    .bg-up h5 {
+        font-size: 11.5px;
+    }
+    .btnMobile {
+        margin-top: 8%;
+    }
+    .bg-up h1 {
+        font-size: 22px;
+        margin-top: 30%;
+    }
+    .bg-up .par {
+        width: 100%; 
+    }
+    .bg-up {
+        background-image: -webkit-linear-gradient(-80deg, rgb(67, 23, 129) 13%, rgb(238, 242, 245) 13%);
+    }
+    .cardImg {
+        display: none;
+    }
+    .marginBottom {
+        margin-top: 12%;
+    }
+    .gameIn {
+        margin-bottom: -13%;
+    }
+    .bg-down h1 {
+        font-size: 22px;
+        margin-top: -8%;
+    }
+    .bg-down .par {
+        width: 100%; 
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .footerMenu {
+        width: 100%;
+        order: 2;
+        margin-top: 15%;
+    }
+    .logoMiddle {
+        width: 100%;
+        order: 3;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    .contacts {
+        width: 100%;
+        margin-top: 15%;
+        order: 1;
+    }
+    .footerMenu ul li a {
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    .contacts a i {
+        font-size: 25px;
+    }
+}
+
+/* Tablet-Game */
+
+@media screen and (max-width:768px) {
+    .dotIcon img {
+        padding-top: 60%;
+    }
+    .logoImg {
+        width: 100%;
+    }
+    .banner h1 {
+        padding-top: 45%;
+        font-size: 50px;
+    }
+    .igraNaslov {
+        margin-top: -115%;
+    }
+    .opis {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gameMargin {
+        font-size: 10px;
+    }
+    .timeGame {
+        font-size: 10px;
+    }
+    .bg-downGame h1 {
+        font-size: 30px;
+    }
+    .bg-downGame .par {
+        width: 100%;
+    }
+}
+
+/* Mobile-game */
+
+@media screen and (max-width:425px) {
+    .dotIcon img {
+        padding-top: 9%;
+    }
+    .logoImg {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .btnMobileGame {
+        text-align: center;
+        margin-top: 20%;
+    }
+    .b2Game {
+        border: 1px solid rgb(252, 210, 50);
+    }
+    .igraNaslov {
+        margin-top: -230%;
+    }
+    .gameMargin {
+        font-size: 16px;
+    }
+    .timeGame {
+        font-size: 14px;
+        margin-left: 20%;
+    }
+    .gameText {
+        margin-top: 8%;
+    }
+    .headGame {
+        margin-top: 6%;
+    }
+    .bg-downGame .par {
+        width: 100%;
+    }
+    .bg-downGame h1 {
+        font-size: 22px;
+        margin-top: -2%;
+    }
+}
+
+/* Tablet-Register */
+
+@media screen and (max-width:768px) {
+    .regForm {
+        padding: 15% 7%;
+    }
+    .uslovi {
+        font-size: 12px;
+    }
+    .bgForm {
+        margin-top: -3%;
+    }
+}
+
+/* Mobile register */
+
+@media screen and (max-width:425px) {
+    .bgForm {
+        background-image: none;
+    }
+}
+
+/* Najava-Tablet */
+
+@media screen and (max-width:768px) {
+    .bgNajava {
+        background-size: 900px 700px;
+    }
+    .najavaForm {
+        margin-top: 37%;
+    }
+}
+
+/* Najava-Mobile */
+
+@media screen and (max-width:425px) {
+    .najavaForm {
+        margin-top: 32%;
+        font-size: 38px;
+    }
+    .parNajava {
+        margin-top: -3%;
+    }
+}
+
+/* Tablet-AboutUs */
+
+@media screen and (max-width:768px) {
+    .headAbout {
+        text-align: center;
+        margin-top: 12%;
+        margin-left: 7%;
+    }
+    .parAbout {
+        text-align: center;
+        margin-left: 7%;
+    }
+    .headAbout2 {
+        text-align: center;
+        margin-left: 7%;
+    }
+    .bgAbout {
+        background-image: none;
+    }
+}
+
+/* Mobile-AboutUs */
+
+@media screen and (max-width:425px) {
+    .headAbout {
+        margin-top: 9%;
+        font-size: 20px;
+    }
+    .headAbout2 {
+        font-size: 20px;
+    }
+    .bgAbout {
+        margin-top: 8%;
+    }
+}
+
+/* Tablet-Galerija */
+
+@media screen and (max-width:768px) {
+    .bgGalerija {
+        background-image: none;
+    }
+    .headGalerija {
+        margin-top: 17%;
+    }
+    .textR {
+        color: rgb(67, 23, 129);
+    }
+    .bgGalerija a {
+        color: rgb(67, 23, 129);
+    }
+}
+
+/* Mobile-Galerija */
+
+@media screen and (max-width:425px) {
+    .headGalerija {
+        margin-top: 19%;
+    }
+}
+
+/* Tablet-Contact */
+
+@media screen and (max-width:768px) {
+    .headContact {
+        margin-top: 70%;
+    }
+}
+
+/* Mobile-Contact */
+
+@media screen and (max-width:425px) {
+    .headContact {
+        margin-top: 90%;
+    }
+}
